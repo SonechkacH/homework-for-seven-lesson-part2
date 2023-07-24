@@ -1,0 +1,16 @@
+*{
+    background: orangered;
+}
+.button{
+    background: white;
+    height: 100px;
+    width: 100px;
+    transition-property: background;
+    transition-duration: 0,5s;
+    transition-timing-function: linear;
+    transition-delay: 0,2s;
+}    
+
+.button:hover{
+    background: green;
+}
